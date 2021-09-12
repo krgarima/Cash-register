@@ -1,17 +1,17 @@
-const billAmount = document.querySelector("#billAmount");
-const cashReceived = document.querySelector("#cashReceived");
+const billAmount = document.querySelector("#bill-Amount");
+const cashReceived = document.querySelector("#cash-Received");
 const checkButton = document.querySelector("#checkButton");
-const  message= document.querySelector("#message");
-const  noOfNotes= document.querySelector(".noOfNotes");
+const  message= document.querySelector("#error-message");
+const  noOfNotes= document.querySelectorAll(".no-Of-Notes");
 
-const availableNotes = [2000,500,200,100,20,10,1];
+const availableNotes = [2000, 500, 100, 20, 10, 5, 1];
 
 checkButton.addEventListener("click", function validAmount()
 {
     hideMessage();
-    if(billAmount.value>=0)
+    if(billAmount.value >= 0)
     {
-        if(cashReceived.value>billAmount.value)
+        if(cashReceived.value >= billAmount.value)
         {
             const changeAmount = cashReceived.value - billAmount.value;
             remainingAmount(changeAmount);
@@ -27,9 +27,9 @@ function remainingAmount(amount)
 {
     for(let i =0; i<availableNotes.length;i++)
     {
-    const notes = Math.trunc(amount/availableNotes[i]);
+    const Notes = Math.trunc(amount/availableNotes[i]);
     amount= amount%availableNotes[i];
-    noOfNotes[i].innerText = notes;
+    noOfNotes[i].innerText = Notes;
     }
 }
 

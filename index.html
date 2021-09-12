@@ -6,52 +6,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cash Register</title>
-    
+    <link href="./styles.css" rel="stylesheet" />
 </head>
 
 <body>
-    <h1>Cash Register</h1>
-    <div>This site help to find the amount and the minimum number of notes to be returned to the customer to help you
-        avoid any error.</div>
-
-    <section>
-        <label for="billAmount">Bill Amount: </label>
-        <input id="billAmount" />
-    </section>
-    <section>
-        <label for="cashReceived">Cash received: </label>
-        <input id="cashReceived" />
-    </section>
-    <button id="checkButton">Check</button>
-
-    <div id="message"></div>
-
-    <table class="change-table">
-        <caption>Return change</caption>
+    <div class="container">
+        <h1>Cash Register</h1>
+        <div>This site help to find the amount and the minimum number of notes to be returned to the customer to help
+            you
+            avoid any error.</div>
 
         <section>
-        <th>Notes:</th>
-        <td>2000</td>
-        <td>500</td>
-        <td>100</td>
-        <td>20</td>
-        <td>10</td>
-        <td>1</td>
+            <label for="bill-Amount">Bill Amount: </label>
+            <input id="bill-Amount" type="text" />
+
+            <label for="cash-Received">Cash received: </label>
+            <input id="cash-Received" type="text" />
+
+            <button id="checkButton">Check</button>
+
+            <div id="error-message"></div>
+
+            <table class="change-table">
+                <caption>Return change</caption>
+
+                <p>
+                    <th>Notes:</th>
+                    <td>2000</td>
+                    <td>500</td>
+                    <td>100</td>
+                    <td>20</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>1</td>
+                </p>
+
+                <div></div>
+
+                <p>
+                    <th>No. of notes:</th>
+                    <td class="no-Of-Notes"></td>
+                    <td class="no-Of-Notes"></td>
+                    <td class="no-Of-Notes"></td>
+                    <td class="no-Of-Notes"></td>
+                    <td class="no-Of-Notes"></td>
+                    <td class="no-Of-Notes"></td>
+                    <td class="no-Of-Notes"></td>
+                </p>
+            </table>
         </section>
-
-        <div></div>
-
-        <section>
-        <th>No. of notes:</th>
-        <td class="noOfNotes"></td>
-        <td class="noOfNotes"></td>
-        <td class="noOfNotes"></td>
-        <td class="noOfNotes"></td>
-        <td class="noOfNotes"></td>
-        <td class="noOfNotes"></td>
-        </section>
-    </table>
-
+    </div>
 </body>
 <script src="./index.js"></script>
 
