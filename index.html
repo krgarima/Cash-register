@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+</head>
+
+<body>
+    <h1>Cash Register</h1>
+    <div>This site help to find the amount and the minimum number of notes to be returned to the customer to help you
+        avoid any error.</div>
+
+    <section>
+        <label for="billAmount">Bill Amount: </label>
+        <input id="billAmount" />
+    </section>
+    <section>
+        <label for="cashReceived">Cash received: </label>
+        <input id="cashReceived" />
+    </section>
+    <button id="checkButton">Check</button>
+
+    <table>
+        <caption>Return change</caption>
+
+        <section>
+        <th>Notes:</th>
+        <td>2000</td>
+        <td>500</td>
+        <td>100</td>
+        <td>20</td>
+        <td>10</td>
+        <td>1</td>
+        </section>
+
+        <section>
+        <th>No. of notes:</th>
+        <td class="noOfNotes"></td>
+        <td class="noOfNotes"></td>
+        <td class="noOfNotes"></td>
+        <td class="noOfNotes"></td>
+        <td class="noOfNotes"></td>
+        <td class="noOfNotes"></td>
+        </section>
+    </table>
+
+</body>
+<script src="./index.js"></script>
+
+</html>
