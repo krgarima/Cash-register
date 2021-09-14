@@ -9,3 +9,88 @@
     text-align: center;
     padding: 5rem 5rem;
 }
+
+.header
+{
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: cadetblue;
+    padding: 1rem 1.0rem;
+    color-adjust:rgb(255, 255, 255);
+    /* text-align: center;
+    margin: 2rem 0rem;
+     */
+}
+
+body{
+    background-color: rgb(233, 255, 224);
+    font-size: 2rem;
+    text-align: center;
+}
+
+h1
+{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2rem 0rem;
+    padding: 0.5rem 1.0rem;
+    color: rgb(38, 1, 73);;
+}
+
+h2{
+    font-size: 1.8rem;
+    display: block;
+}
+
+.container
+{
+    margin: auto;
+    padding: 0.5rem 1.0rem;
+    text-align: center;
+}
+
+.btn
+{
+    background-color: white;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.result
+{
+    font-size: 1.5rem;
+    margin: 2rem;
+    padding: 1rem 1.0rem;
+    color: rgb(0, 71, 0);
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-style: normal;
+}
+.result2
+{
+    font-size: 1.5rem;
+    margin-top: 0rem;
+    padding: 1.5rem 1.0rem;
+    color: red;
+    background-color: rgb(252, 244, 244);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.btn2
+{
+    background-color: rgb(247, 246, 245);
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.change-table
+{
+    background-color: rgb(254, 255, 206);
+    border-radius: 1.5;
+    border-color:black ;
+    color: rgb(218, 151, 7);
+    font-style: italic;
+}
