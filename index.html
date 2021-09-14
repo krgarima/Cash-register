@@ -13,49 +13,51 @@
     <div class="container">
         <h1>Cash Register</h1>
         <p>This site help to find the amount and the minimum number of notes to be returned to the customer to help
-            you avoid any error.</p>  </div>
+            you avoid any error.</p>
+    </div>
 
-        <section>
-            <ul>
-                <li> <label for="bill-Amount">Bill Amount: </label>
-                    <input id="bill-Amount" type="text" /></li>
+    <section>
+        <ul>
+            <li> <label for="bill-Amount">Bill Amount: </label>
+                <input id="bill-Amount" type="text" /></li>
 
-                <li> <label for="cash-Received">Cash received: </label>
-                    <input id="cash-Received" type="text" /></li>
-            </ul>
+            <li> <label for="cash-Received">Cash received: </label>
+                <input id="cash-Received" type="text" /></li>
+        </ul>
 
-            <button id="checkButton" class="btn">Check</button>
+        <button id="checkButton" class="btn">Check</button>
 
-            <div id="error-message"></div>
+        <div id="error-message"></div>
 
-            <table class="change-table">
-                <caption class="result">Change to be returned:</caption>
+        <table class="change-table">
+            <caption class="result">Change to be returned:</caption>
 
-                    <p>
-                        <th>Notes available:</th>
-                        <td>2000</td>
-                        <td>500</td>
-                        <td>100</td>
-                        <td>20</td>
-                        <td>10</td>
-                        <td>5</td>
-                        <td>1</td>
-                    </p>
-            
-                    <p>
-                        <th>No. of notes:</th>
-                        <td class="no-Of-Notes"></td>
-                        <td class="no-Of-Notes"></td>
-                        <td class="no-Of-Notes"></td>
-                        <td class="no-Of-Notes"></td>
-                        <td class="no-Of-Notes"></td>
-                        <td class="no-Of-Notes"></td>
-                        <td class="no-Of-Notes"></td>
-                    </p>
- 
-            </table>
-        </section>
-  
+            <p>
+                <th>Notes available:</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>1</td>
+            </p>
+        </table>
+        <table class="change-table">
+            <p>
+                <th>No. of notes:</th>
+                <td class="no-Of-Notes"></td>
+                <td class="no-Of-Notes"></td>
+                <td class="no-Of-Notes"></td>
+                <td class="no-Of-Notes"></td>
+                <td class="no-Of-Notes"></td>
+                <td class="no-Of-Notes"></td>
+                <td class="no-Of-Notes"></td>
+            </p>
+
+        </table>
+    </section>
+
 </body>
 <script src="./index.js"></script>
 
