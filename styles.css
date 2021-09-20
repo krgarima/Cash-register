@@ -95,6 +95,15 @@ h2{
     /* font-style: italic; */
     margin: auto;
     padding: 1.5rem 1.5rem;
+    width: 50%;
+    text-align: justify;
+    border-collapse: collapse;
+}
+
+td, thead, tbody{
+    border: 2px solid black;
+    width: 0%;
+    border-collapse: collapse;
 }
 
 .msg
