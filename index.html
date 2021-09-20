@@ -17,41 +17,41 @@
 
         <ul>
             <li> <label for="bill-Amount">Bill Amount: </label>
-                <input id="bill-Amount" type="text" /></li>
+                <input id="bill-Amount" type="number" /></li>
 
             <li> <label for="cash-Received">Cash received: </label>
-                <input id="cash-Received" type="text" /></li>
+                <input id="cash-Received" type="number" /></li>
         </ul>
 
         <button id="checkButton" class="btn">Check</button>
 
-        <div id="error-message"></div>
+        <div id="error-message" class="msg"></div>
 
+        <h3 class="result">Change to be returned:</h3>
         <table class="change-table">
-            <caption class="result">Change to be returned:</caption>
 
-            <p>
-                <th>Notes available:</th>
-                <td>2000-</td>
-                <td>500-</td>
-                <td>100-</td>
-                <td>20-</td>
-                <td>10-</td>
-                <td>5-</td>
+            <tbody>
+                <thead>
+                <th>Notes available: </th>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
                 <td>1</td>
-            </p>
-        </table>
-        <table class="change-table">
-            <p>
-                <th>No. of notes:</th>
-                <td class="no-Of-Notes">-</td>
-                <td class="no-Of-Notes">-</td>
-                <td class="no-Of-Notes">-</td>
-                <td class="no-Of-Notes">-</td>
-                <td class="no-Of-Notes">-</td>
-                <td class="no-Of-Notes">-</td>
-                <td class="no-Of-Notes">-</td>
-            </p>
+            </thead>
+            </tbody>
+            <tbody>
+                <th>No. of notes: </th>
+                <td class="no-Of-Notes"></td>
+                <td class="no-Of-Notes"></td>
+                <td class="no-Of-Notes"></td>
+                <td class="no-Of-Notes"></td>
+                <td class="no-Of-Notes"></td>
+                <td class="no-Of-Notes"></td>
+                <td class="no-Of-Notes"></td>
+            </tbody>
 
         </table>
 
