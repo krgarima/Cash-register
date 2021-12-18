@@ -10,62 +10,67 @@
 </head>
 
 <body>
-    <h1>Cash Register</h1>
-    <div>
-        <p>This site help to find the amount and the minimum number of notes to be returned to the customer.</p>
-    </div>
+    <header>
+        <h1>Cash Register</h1>
+        <div class="txt">
+            <p>This site help to find the amount and the minimum number of notes to be returned to the customer.</p>
+        </div>
+    </header>
 
-    <ul>
-        <li> <label for="bill-Amount">Bill Amount: </label>
-            <input id="bill-Amount" type="number" /></li>
+    <main>
+        <ul>
+            <li> <label for="bill-Amount">Bill Amount: </label>
+                <input id="bill-Amount" type="number" /></li>
 
-        <li> <label for="cash-Received">Cash received: </label>
-            <input id="cash-Received" type="number" /></li>
-    </ul>
+            <li> <label for="cash-Received">Cash received: </label>
+                <input id="cash-Received" type="number" /></li>
+        </ul>
 
-    <button id="checkButton" class="btn">Check</button>
+        <button id="checkButton" class="btn">Check</button>
 
-    <div id="error-message" class="msg"></div>
+        <div id="error-message" class="msg"></div>
 
-    <h3 class="result">Change to be returned:</h3>
-    
-    <table class="change-table">
+        <h3 class="result">Change to be returned:</h3>
 
-        <tbody>
-            <thead>
-                <th>Notes available: </th>
-                <td>2000</td>
-                <td>500</td>
-                <td>100</td>
-                <td>20</td>
-                <td>10</td>
-                <td>5</td>
-                <td>1</td>
-            </thead>
-        </tbody>
-        <tbody>
-            <th>No. of notes: </th>
-            <td class="no-Of-Notes"></td>
-            <td class="no-Of-Notes"></td>
-            <td class="no-Of-Notes"></td>
-            <td class="no-Of-Notes"></td>
-            <td class="no-Of-Notes"></td>
-            <td class="no-Of-Notes"></td>
-            <td class="no-Of-Notes"></td>
-        </tbody>
-    </table>
+        <div class="tab">
+            <table class="change-table">
+                <tbody>
+                    <thead>
+                        <th>Notes available: </th>
+                        <td>2000</td>
+                        <td>500</td>
+                        <td>100</td>
+                        <td>20</td>
+                        <td>10</td>
+                        <td>5</td>
+                        <td>1</td>
+                    </thead>
+                </tbody>
+                <tbody>
+                    <th>No. of notes: </th>
+                    <td class="no-Of-Notes"></td>
+                    <td class="no-Of-Notes"></td>
+                    <td class="no-Of-Notes"></td>
+                    <td class="no-Of-Notes"></td>
+                    <td class="no-Of-Notes"></td>
+                    <td class="no-Of-Notes"></td>
+                    <td class="no-Of-Notes"></td>
+                </tbody>
+            </table>
+        </div>
+    </main>
 
+
+    <footer>
+        <p>© | 2021 | Garima</p>
+        <a href="https://github.com/krgarima" target="_blank"><img src="images/github.bmp" alt="github" /></a>
+        <a href="https://twitter.com/GarimaK29063577" target="_blank"><img src="images/twitter.bmp" alt="twitter"></a>
+        <a href="https://www.instagram.com/garryma_/?hl=en" target="_blank"><img src="images/insta.bmp"
+                alt="instagram"></a>
+        <a href="https://discord.com/channels/@Garima#9686" target="_blank"><img src="images/discord.bmp"
+                alt="discord"></a>
+    </footer>
 </body>
-
-<footer>
-    <p>© | 2021 | Garima</p>
-    <a href="https://github.com/krgarima" target="_blank"><img src="images/github.bmp" alt="github" /></a>
-    <a href="https://twitter.com/GarimaK29063577" target="_blank"><img src="images/twitter.bmp" alt="twitter"></a>
-    <a href="https://www.instagram.com/garryma_/?hl=en" target="_blank"><img src="images/insta.bmp"
-            alt="instagram"></a>
-    <a href="https://discord.com/channels/@Garima#9686" target="_blank"><img src="images/discord.bmp"
-            alt="discord"></a>
-</footer>
 
 <script src="./index.js"></script>
 

@@ -16,7 +16,7 @@ checkButton.addEventListener("click", function validAmount() {
                     errorMessageDisplay("Change to be returned is Rs."+ changeAmount);
                     remainingAmount(changeAmount);
                 } else
-                    {errorMessageDisplay("We have an opening for a dishwashing/cleaning man. Do you wish to apply to cover the remaining expense?.");
+                    {errorMessageDisplay("Given amount is less than the due bill amount.");
                     remainingAmount(0);}
             } else
                 errorMessageDisplay("No change to be returned");
@@ -37,6 +37,7 @@ function remainingAmount(amount) {
 function errorMessageDisplay(msg) {
     message.style.display = "block";
     message.innerText = "Message: " + msg;
+    message.style.color = "red";
 }
 
 function hideMessage() {
